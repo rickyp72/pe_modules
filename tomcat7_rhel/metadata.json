@@ -1,0 +1,45 @@
+{
+  "name": "llehmijo-tomcat7_rhel",
+  "version": "2.0.2",
+  "source": "UNKNOWN",
+  "author": "llehmijo",
+  "license": "Apache License, Version 2.0",
+  "summary": "UNKNOWN",
+  "description": "Tomcat 7 on RHEL 6",
+  "project_page": "UNKNOWN",
+  "dependencies": [
+
+  ],
+  "types": [
+
+  ],
+  "checksums": {
+    "Gemfile": "8f05a1467857e521befcee9f12937eee",
+    "Gemfile.lock": "770f62ddb95f1cc2655c284bd9cd0ea7",
+    "LICENSE": "c916e892d626bf90084a8cc0de59a481",
+    "Modulefile": "49b67fcb2677c3b2b3c78cd4f0abb45c",
+    "README.md": "d66ba4957264e1c128ceb052c5df2b42",
+    "Rakefile": "0e575d6d4d261f8eabb992fa9a8e63ae",
+    "changelog.md": "60f28b2723deff3400903eb8d77a69c2",
+    "manifests/init.pp": "ed2a0db312ca232c368be0a91a7118c7",
+    "manifests/jpackage_repo.pp": "caced55ee9e13db365250c8c19a3c11f",
+    "manifests/tomcat7_manager_package.pp": "82409419cf8eeea139f54a7bf5275908",
+    "manifests/tomcat_application.pp": "4789018223e7b45c0070c6bd6e35f22f",
+    "manifests/tomcat_manager.pp": "ff94b26b7d0c02dc646604f6a6ecea18",
+    "spec/classes/jpackage_repo_spec.rb": "107a28c822f1beb874717ac31cb358f9",
+    "spec/classes/tomcat7_rhel_spec.rb": "020c3653bd2f216f5034e68113a190e8",
+    "spec/defines/tomcat7_rhel__tomcat_application_spec.rb": "4779d90598c6693b0e7bda040bf6df92",
+    "spec/fixtures/manifests/site.pp": "d41d8cd98f00b204e9800998ecf8427e",
+    "spec/spec_helper.rb": "792eeb7aa7edafb93e2bc1d27c5e75c5",
+    "templates/check_memory_leaks.sh.erb": "3daa4ed70d267b70e821c341a7d90189",
+    "templates/deploy_with_tomcat_manager.sh.erb": "e91f05f35e9d6e3d097b6912ba89a5fc",
+    "templates/etc/logrotate.d/tomcat7.erb": "fb7c1848852a536af9b28f7239251d89",
+    "templates/etc/sysconfig/tomcat7.erb": "f85bb76e22fdb66963bf4e97a54303da",
+    "templates/list-applications.sh.erb": "aba3ac9c49d28e4d8cb1ee282203a41b",
+    "templates/manager.xml.erb": "31b5849b01914eb2ae8f05ba49ce509a",
+    "templates/run_smoke_test.sh.erb": "3d99bd0c0da6442ed3a67c51026a804b",
+    "templates/server.xml.erb": "e50e1a424034c0039b2ec1fa9cee0ffa",
+    "templates/tomcat-users.xml.erb": "32a30730588d674cab1eb13de4586cd7",
+    "templates/undeploy_with_tomcat_manager.sh.erb": "8f326b37f32a91ca828e5fe2d62cc6ad"
+  }
+}

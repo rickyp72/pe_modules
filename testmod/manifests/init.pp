@@ -1,0 +1,5 @@
+# Class: Newclass
+#
+#
+class Newclass {
+}
